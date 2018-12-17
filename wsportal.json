@@ -24,7 +24,7 @@
         "ApproverEmail": {
             "Type": "String",
             "Description": "Email address that will receive WorkSpace Creation approval requests.",
-            "Default": "mark@arcusglobal.com"
+            "Default": "mihail.milev@arcusglobal.com"
         },
         "DirectoryServicesId": {
             "Type": "String",
