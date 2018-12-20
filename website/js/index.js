@@ -231,6 +231,7 @@ var authToken;
                         }
                     },
                     success: function (data) {
+                        console.log(data);
                         for (var i = 0; i < data.Result.length; i++) {
                             $('#reqBundle')
                                 .append($("<option></option>")
