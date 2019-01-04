@@ -246,6 +246,7 @@ var authToken;
                 // If a WorkSpace is returned, populate the table with its details (ID, Username, State, and Bundle ID).
                 console.log(data);
                 $("#workspace-Id").html(data.WorkspaceId);
+                $("#workspace-Reg").html(data.DirectoryId);
                 $("#workspace-Username").html(data.UserName);
                 $("#workspace-State").html(data.State);
                 $("#workspace-Bundle").html(data.BundleId);
